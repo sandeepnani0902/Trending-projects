@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.logo-box .log{
+    width: 100px;
+    height: fit-content;
+    padding-top: 20px;
+}
+.under{
+   border-bottom: 2px solid black;
+   z-index: 2;
+}
+.nav .nav-link{
+    text-decoration: none;
+    color: black;
+   padding: 20px;
+   z-index: 5;
+   
+}
+.creativity{
+    padding-top: 0%;
+}
+
+.content-box{
+    width: 400px;
+    height: 600px;
+    display: block;
+    justify-content: right;
+     position: relative;
+    top: 80px;
+    left: 60px;
+}
+.content-box .title{
+    color:black;
+    font-size: 80px;
+    font-weight: 600;
+}
+.content-box .never{
+    color:black;
+    font-size: 80px;
+    font-weight: 600;
+    position: relative;
+    top: -35px;
+    left:140px;
+}
+.content-box .revers-title{
+    color:black;
+    font-size: 80px;
+    font-weight: 600;
+    position: relative;
+    top: -435px;
+    left:170px;
+    rotate: 270deg;
+    line-height: 100%;
+    z-index: 5;
+  
+}
+.content-box p{
+    color:black;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: -135px;
+    width: 130px;
+    text-align: end;
+}
+
+
+.content-box .more a{
+    text-decoration: none;
+    color:black;
+    font-size: 11px;
+    font-weight: 700;
+    position: relative;
+    top: -50px;
+    left: 150px;
+    width: 60px;
+    border: 2px solid black;
+    padding: 6px 15px 6px 15px;
+    box-shadow: -3px 3px black;
+    
+}
+.content-box .invite{
+    color:black;
+    font-size: 35px;
+    font-weight: 400;
+    position: relative;
+    top: -330px;
+    left: 270px;
+    width: 130px;
+    text-align: end;
+}
+.content-box .invite-sub{
+    color:black;
+    font-size: 35px;
+    font-weight: 400;
+    position: relative;
+    top: -300px;
+    left: 170px;
+    width: 130px;
+    text-align: end;
+}
+
+.bg-bottm-design {
+  
+   
+    position: relative;
+    top: -255px;
+    left: -30px;
+}
+.bg-bottm-design .desing{
+    width: 700px;;
+   font-size: 60px;
+    position: absolute;
+    left: -90px;
+    top: -70px;
+}
+.bg-bottm-design .moon{
+    position: absolute;
+    bottom: 20px;
+    width: 50px;
+    left: 230px;
+    top: 130px;
+    z-index: 1;
+}
+.bg-bottm-design .big-moon{
+    position: absolute;
+    left: 23px;
+    top: 140px;
+    left: 290px;
+    z-index: 1;
+    width: 130px;
+}
+
+.universe{
+    background-image: url(img4.jpg);
+    background-position: top center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+    z-index: index 4;
+  
+}
+.universe .box-shadow{
+    width: 450px;
+    height: 450px;
+    z-index: -1;
+    box-shadow: 0 0 5px 32px  white inset , 0 0 5px 22px white;
+    border-radius: 50%;
+  
+}
+.yellow-layer{
+    position: relative;
+    left: -210px;
+    top: -90px;
+    z-index: 1;
+    background: transparent;
+   
+    
+}
+.yellow-layer .design2{
+   
+   width:   500px;
+   height: auto;
+}
+
+.check-box{
+    position: fixed;
+    top: 250px;
+    left: 40px;
+}
